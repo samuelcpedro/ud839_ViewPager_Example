@@ -26,6 +26,9 @@ import android.view.ViewGroup;
  */
 public class TuesdayFragment extends Fragment {
 
+    public TuesdayFragment(String) {
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_tuesday, container, false);
